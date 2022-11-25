@@ -10,9 +10,11 @@ html(lang="es")
     body.min-h-screen.bg-gray-50
         if barra
             include header-app
+             
 
         main(class="nx-auto container my-10 px-2")
             block contenido
+            include footer
 
 
         block scripts 
